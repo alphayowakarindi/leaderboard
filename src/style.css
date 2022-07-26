@@ -1,0 +1,8 @@
+#scores {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recent-scores .title {
+  display: flex;
+}
