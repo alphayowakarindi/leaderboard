@@ -5,7 +5,7 @@ const userScore = document.querySelector('#score');
 addScore.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  if(userName.value === '' || userScore.value === '') return;
+  if (userName.value === '' || userScore.value === '') return;
 
   fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/CWfQ94AJNRuIhIWKDLIg/scores',
