@@ -1,6 +1,6 @@
 # Leaderboard
 
-> This ia an app to showcases user's scores in a game called leaderboaard.
+> This ia an app to showcases user's scores in a game.
 
 
 ## Built With
