@@ -1,0 +1,1 @@
+const scoresTable = document.querySelector('.scores-table')
