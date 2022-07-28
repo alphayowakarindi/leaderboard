@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;700;900&display=swap");
 body {
-font-family: 'Roboto',s sans-serif;
+  font-family: "Roboto", s sans-serif;
 }
 #scores {
   display: flex;
@@ -28,4 +28,12 @@ h1 {
   cursor: pointer;
   margin-left: 50px;
   border-radius: 15px;
+}
+
+.scores-table div {
+  margin-bottom: 6px;
+  padding: 5px;
+}
+.scores-table div:nth-child(odd) {
+  background-color: rgba(128, 128, 128, 0.3);
 }
