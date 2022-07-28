@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <base href="/">
-    <link rel="stylesheet" href="./style.css">
   <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
   <body>
     <h1>Leaderboard</h1>
@@ -14,25 +12,21 @@
       <div class="recent-scores">
         <div class="title">
           <h3>Recent scores</h3>
-          <input type="button" value="Refresh" id="refresh-btn" />
+          <div>
+            <input type="button" value="Refresh" id="refresh-btn" />
+          </div>
         </div>
-        <div class="scrores-table">
-          <div class="student-score">Name: 100</div>
-          <div class="student-score">Name: 20</div>
-          <div class="student-score">Name: 50</div>
-          <div class="student-score">Name: 78</div>
-          <div class="student-score">Name: 125</div>
-          <div class="student-score">Name: 77</div>
-          <div class="student-score">Name: 42</div>
-        </div>
+        <div class="scores-table"></div>
       </div>
       <div class="add-score">
-        <div class="titile">
+        <div class="title">
           <h3>Add your score</h3>
           <form id="add-score">
-            <input type="text" id="name" />
-            <br>
-            <input type="number" id="score" />
+            <input type="text" id="name" placeholder="Your name" />
+            <br />
+            <input type="number" id="score" placeholder="Your score" />
+            <br />
+            <button type="submit">Submit</button>
           </form>
         </div>
       </div>
