@@ -10,8 +10,22 @@ font-family: 'Roboto',s sans-serif;
 
 .recent-scores .title {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
   margin: 4% 0 0 4%;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+#refresh-btn {
+  background-color: rgb(169, 118, 22);
+  border: none;
+  color: white;
+  padding: 3px 15px;
+  cursor: pointer;
+  margin-left: 50px;
+  border-radius: 15px;
 }
