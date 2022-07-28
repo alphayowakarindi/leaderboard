@@ -37,3 +37,13 @@ h1 {
 .scores-table div:nth-child(odd) {
   background-color: rgba(128, 128, 128, 0.3);
 }
+
+#add-score {
+  min-width: 250px;
+}
+
+#add-score input {
+  margin-bottom: 15px;
+  padding: 10px;
+  min-width: 250px;
+}
